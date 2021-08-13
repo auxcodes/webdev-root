@@ -56,22 +56,18 @@
 
   .site-frame {
     display: flex;
-    min-height: 50vh;
 
     @media screen and (max-width: 650px) {
-      min-height: 90vh;
+      
     }
   }
 }
 
 
 .iframe-wrapper {
-  display: block;
-  overflow: hidden;
-  position: relative;
+  display: flex;
   box-shadow: 0 7px 15px #828282;
   margin: 20px 0 20px 20px;
-  width: 100%;
 
   iframe {
     background: #fff;
@@ -82,6 +78,16 @@
     top: 0;
     position: absolute;
     width: 100%;
+  }
+
+  img {
+    background: #fff;
+    color: none;
+    border: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
   }
 }
 
