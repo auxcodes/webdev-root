@@ -29,7 +29,8 @@
               "src/assets",
               "src/assets/logo",
               "src/assets/icons",
-              "src/assets/icons/favicons"
+              "src/assets/icons/favicons",
+              "src/_redirects"
             ],
             "styles": [
               "src/styles.scss"
